@@ -1,0 +1,34 @@
+# Archivos de configuración local
+local.properties
+
+# Carpetas de compilación
+.gradle/
+build/
+*/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Archivos específicos que a veces se generan
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Archivos generados
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.log
+
+# Seguridad
+*.keystore
+*.jks
+*.hprof
+
+# Entornos
+.env
+
