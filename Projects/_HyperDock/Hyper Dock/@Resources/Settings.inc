@@ -1,0 +1,29 @@
+[Variables]
+; ICON SIZE
+icon_width=75
+icon_height=75
+
+; LABEL SIZE
+label_width=200
+label_fontsize=25
+
+; ANIMATION SLOWER DIVIDER [ INCREASE == LONGER ANIMATION ]
+divider=2.65
+
+; UPDATES TO DRAW WHEN INTERACTED [ INCREASE == LONGER ANIMATION ]
+step=400
+
+; ICON SIZE MULTIPLIER FOR EXPANSION WHEN HIGHLIGHTED
+expand=1.5
+
+; PADDING [ INCREASE == ICON SMALLER ]
+padding=12
+
+; HIDE AFTER SELECT? [0 : FALSE || 1 : TRUE]
+autohide=1
+
+; ORIENTATION [ 0 : HORIZONTAL || 1 : VERTICAL ]
+vertical=1
+
+; DIRECTION [ 1 : RIGHT -> LEFT || -1 : LEFT -> RIGHT || 0 : ?? ]
+direction=-1
