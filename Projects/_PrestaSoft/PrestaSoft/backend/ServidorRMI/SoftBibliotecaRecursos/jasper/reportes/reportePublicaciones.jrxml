@@ -1,0 +1,100 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="reportePublicaciones" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5adfe3df-681e-4e51-85ba-744a57d065e7">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ta_provisional"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="idUniversidad" class="java.lang.Integer"/>
+	<parameter name="cantidadDePrestamosMinima" class="java.lang.Integer"/>
+	<parameter name="cantidadDePrestamosMaxima" class="java.lang.Integer"/>
+	<parameter name="tipoEstadoPrestamo" class="java.lang.String"/>
+	<parameter name="incluirVirtuales" class="java.lang.Boolean"/>
+	<parameter name="limite" class="java.lang.Integer"/>
+	<parameter name="descripcion" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String"/>
+	<query language="sql"><![CDATA[CALL ResumenReportePublicaciones(
+    $P{idUniversidad}, 
+    $P{cantidadDePrestamosMinima}, 
+    $P{cantidadDePrestamosMaxima}, 
+    $P{tipoEstadoPrestamo}, 
+    $P{incluirVirtuales}, 
+    $P{limite}
+);]]></query>
+	<field name="PorcentajePublicacionesConPenalizacion" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="porcentajePublicacionesConPenalizacion"/>
+		<property name="com.jaspersoft.studio.field.label" value="PorcentajePublicacionesConPenalizacion"/>
+	</field>
+	<background splitType="Stretch"/>
+	<title height="130" splitType="Stretch">
+		<element kind="staticText" uuid="a132b091-1764-412b-b0cd-1443d5cf04c2" x="80" y="0" width="410" height="50" fontName="Arial Black" fontSize="29.0" hTextAlign="Center">
+			<text><![CDATA[Reporte de publicaciones]]></text>
+		</element>
+		<element kind="staticText" uuid="2a700677-e7b9-4091-b460-fb48d3a29230" x="60" y="50" width="220" height="20" fontSize="12.0">
+			<text><![CDATA[Con cantidad mínima de préstamos de]]></text>
+		</element>
+		<element kind="staticText" uuid="779bc1c9-8e98-4a80-800e-ed6d92fb7572" x="330" y="50" width="110" height="20" fontSize="12.0">
+			<text><![CDATA[y máxima de ]]></text>
+		</element>
+		<element kind="staticText" uuid="70307477-b473-417a-86c2-b8e2ab530a01" x="60" y="70" width="150" height="20" fontSize="12.0" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Con préstamos de tipo: ]]></text>
+		</element>
+		<element kind="textField" uuid="4eb1278d-199e-4bec-ab7a-1124b7e3d4ed" x="280" y="50" width="50" height="20" fontSize="12.0">
+			<expression><![CDATA[$P{cantidadDePrestamosMinima}]]></expression>
+		</element>
+		<element kind="textField" uuid="29956054-89fb-4f77-9a3d-93d16c6a0327" x="440" y="50" width="90" height="20" fontSize="12.0">
+			<expression><![CDATA[$P{cantidadDePrestamosMaxima}]]></expression>
+		</element>
+		<element kind="textField" uuid="ba44c254-80cb-4865-a15d-48ab079023e1" x="210" y="70" width="274" height="20" fontSize="12.0" vTextAlign="Middle">
+			<expression><![CDATA[($P{tipoEstadoPrestamo}==null || $P{tipoEstadoPrestamo}.equals(""))?"Ninguno en especial":$P{tipoEstadoPrestamo}]]></expression>
+		</element>
+		<element kind="textField" uuid="f2327f46-6666-4507-a5f0-58abd07cdee0" x="60" y="90" width="400" height="20" fontSize="12.0">
+			<expression><![CDATA[$P{incluirVirtuales}==true?"Incluyendo virtuales":"Sin incluir virtuales"]]></expression>
+		</element>
+		<element kind="rectangle" uuid="04a35688-cc06-4d49-b1ca-4a379fb05544" x="-30" y="120" width="595" height="10" backcolor="#030303"/>
+	</title>
+	<pageHeader height="85" splitType="Stretch">
+		<element kind="textField" uuid="3483b53f-0ade-4927-8258-33c4dc7410a7" x="370" y="10" width="160" height="40">
+			<expression><![CDATA[$F{PorcentajePublicacionesConPenalizacion}]]></expression>
+		</element>
+		<element kind="staticText" uuid="1fdc11da-148d-4667-a510-6be166c81c68" x="190" y="10" width="170" height="40">
+			<text><![CDATA[Resumen:
+Porcentaje de publicaciones con penalización]]></text>
+		</element>
+		<element kind="textField" uuid="db617b11-0f84-4f77-bf4a-0556849b1079" x="0" y="10" width="170" height="40">
+			<expression><![CDATA[$P{descripcion}==null?"":$P{descripcion}]]></expression>
+		</element>
+		<element kind="line" uuid="5bd811e5-31a9-447f-9591-2761a364352a" x="-30" y="60" width="605" height="1"/>
+	</pageHeader>
+	<detail>
+		<band height="186" splitType="Stretch">
+			<element kind="subreport" uuid="83e833d8-1126-4832-93e3-97ee49381e98" x="0" y="-20" width="200" height="200">
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<expression><![CDATA[$P{SUBREPORT_DIR}+"detallePublicacionesReportePublicaciones.jasper"]]></expression>
+				<parameter name="idUniversidad">
+					<expression><![CDATA[$P{idUniversidad}]]></expression>
+				</parameter>
+				<parameter name="cantidadDePrestamosMinima">
+					<expression><![CDATA[$P{cantidadDePrestamosMinima}]]></expression>
+				</parameter>
+				<parameter name="cantidadDePrestamosMaxima">
+					<expression><![CDATA[$P{cantidadDePrestamosMaxima}]]></expression>
+				</parameter>
+				<parameter name="tipoEstadoPrestamo">
+					<expression><![CDATA[$P{tipoEstadoPrestamo}]]></expression>
+				</parameter>
+				<parameter name="incluirVirtuales">
+					<expression><![CDATA[$P{incluirVirtuales}]]></expression>
+				</parameter>
+				<parameter name="limite">
+					<expression><![CDATA[$P{limite}]]></expression>
+				</parameter>
+				<parameter name="descripcion">
+					<expression><![CDATA[$P{descripcion}]]></expression>
+				</parameter>
+				<parameter name="SUBREPORT_DIR">
+					<expression><![CDATA[$P{SUBREPORT_DIR}]]></expression>
+				</parameter>
+			</element>
+		</band>
+	</detail>
+	<pageFooter height="40" splitType="Stretch"/>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>

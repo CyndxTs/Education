@@ -1,0 +1,11 @@
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\bin\Debug\SoftBibliotecaLocalidadBO.dll.config
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\bin\Debug\SoftBibliotecaLocalidadBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\bin\Debug\SoftBibliotecaLocalidadBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\obj\Debug\SoftBibliotecaLocalidadBO.csproj.AssemblyReference.cache
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\obj\Debug\SoftBibliotecaLocalidadBO.csproj.CoreCompileInputs.cache
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\obj\Debug\SoftBibl.2FFF7838.Up2Date
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\obj\Debug\SoftBibliotecaLocalidadBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaLocalidadBO\obj\Debug\SoftBibliotecaLocalidadBO.pdb

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://servicios.softbiblioteca.pucp.edu.pe/" targetNamespace="http://servicios.softbiblioteca.pucp.edu.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="reporteMiembros" type="tns:reporteMiembros" />
+  <xs:element name="reporteMiembrosResponse" type="tns:reporteMiembrosResponse" />
+  <xs:element name="reportePublicaciones" type="tns:reportePublicaciones" />
+  <xs:element name="reportePublicacionesResponse" type="tns:reportePublicacionesResponse" />
+  <xs:element name="reporteSolicitudes" type="tns:reporteSolicitudes" />
+  <xs:element name="reporteSolicitudesResponse" type="tns:reporteSolicitudesResponse" />
+  <xs:complexType name="reporteMiembros">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="fechaRegMin" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaRegMax" type="xs:string" />
+      <xs:element minOccurs="0" name="cantSancionesMin" type="xs:int" />
+      <xs:element minOccurs="0" name="cantSancionesMax" type="xs:int" />
+      <xs:element minOccurs="0" name="idUniversidad" type="xs:int" />
+      <xs:element minOccurs="0" name="limiteUsuarios" type="xs:int" />
+      <xs:element minOccurs="0" name="descripcion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reporteMiembrosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" nillable="true" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reportePublicaciones">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cantPrestamosMin" type="xs:int" />
+      <xs:element minOccurs="0" name="cantPrestamosMax" type="xs:int" />
+      <xs:element minOccurs="0" name="incluirVirtuales" type="xs:int" />
+      <xs:element minOccurs="0" name="idUniversidad" type="xs:int" />
+      <xs:element minOccurs="0" name="limite" type="xs:int" />
+      <xs:element minOccurs="0" name="descripcion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reportePublicacionesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" nillable="true" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reporteSolicitudes">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="idUsuario" type="xs:int" />
+      <xs:element minOccurs="0" name="fechaMin" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaMax" type="xs:string" />
+      <xs:element minOccurs="0" name="estadoDePrestamos" type="xs:string" />
+      <xs:element minOccurs="0" name="idUniversidad" type="xs:int" />
+      <xs:element minOccurs="0" name="mostrarONoReservas" type="xs:int" />
+      <xs:element minOccurs="0" name="descripcion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="reporteSolicitudesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" nillable="true" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

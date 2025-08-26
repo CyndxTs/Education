@@ -1,0 +1,36 @@
+/*  - / > [ Definicion de Funciones ] < / -  */
+/*  - / > [ Funciones en main() ] < / -  */
+/*  - / > [ Funciones de Orden Principal ] < / -  */
+/*  - / > [ Funciones de Orden Secundario ] < / -  */
+/*  - / > [ Funciones de Orden Derivado ] < / -  */
+/*  - / > [ Funciones Decorativas ] < / -  */
+/*  - / > [ Funciones Auxiliares ] < / -  */
+/*  - / > [ Declaracion de Constantes ] < / -  */
+/*  - / > [ Declaracion de Funciones ] < / -  */
+
+/*  - / > [ - TAREA 1 - ] < / -  */
+
+/*  - / > [ - Parte # - ] < / -  */
+/*  - / > [ - Parte ## - ] < / -  */
+/*  - / > [ - Parte ### - ] < / -  */
+/*  - / > [ - Parte #### - ] < / -  */
+
+/*  - / > [ - Pregunta # - ] < / -  */
+/*  - / > [ - Pregunta ## - ] < / -  */
+/*  - / > [ - Pregunta ### - ] < / -  */
+/*  - / > [ - Pregunta #### - ] < / -  */
+
+/*  - / > [ - Inciso # - ] < / -  */
+/*  - / > [ - Inciso ## - ] < / -  */
+/*  - / > [ - Inciso ### - ] < / -  */
+/*  - / > [ - Inciso #### - ] < / -  */
+
+
+/*  - / > [ - PAQUETE - POLITICAS - ] < / -  */
+/*  - / > [ - PAQUETE - LOCALIDAD - ] < / -  */
+/*  - / > [ - PAQUETE - USUARIOS - ] < / -  */
+/*  - / > [ - PAQUETE - PUBLICACIONES - ] < / -  */
+/*  - / > [ - PAQUETE - RESERVAS - ] < / -  */
+/*  - / > [ - PAQUETE - PRESTAMOS - ] < / -  */
+
+

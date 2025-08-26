@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1556A8BD-D9C1-408D-AFB4-17CA8D6C63D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SoftBibliotecaBO</RootNamespace>
+    <AssemblyName>SoftBibliotecaBO</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseBO.cs" />
+    <Compile Include="Connected Services\Reportes\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ServicioWeb\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Connected Services\Reportes\Reportes1.wsdl" />
+    <None Include="Connected Services\Reportes\Reportes1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Reportes\SoftBibliotecaBO.Reportes.reporteMiembrosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Reportes\SoftBibliotecaBO.Reportes.reportePublicacionesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\Reportes\SoftBibliotecaBO.Reportes.reporteSolicitudesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\ServicioWeb1.wsdl" />
+    <None Include="Connected Services\ServicioWeb\ServicioWeb1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.autor.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.biblioteca.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.biblioteca_eliminarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.biblioteca_insertarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.biblioteca_listarTodosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.biblioteca_modificarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.biblioteca_obtenerPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.buscarAutorPorNombreResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.buscarEditorialPorNombreResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.buscarTemaPorNombreResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.busquedaAvanzadaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.cancelarReservaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.confirmarAmpliacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.confirmarDevolucionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.confirmarReservaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consorcio.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consorcio_eliminarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consorcio_insertarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consorcio_listarTodosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consorcio_modificarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consorcio_obtenerPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consultarCalificacionPrestamoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consultarCopiaEjemplarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consultarMiembroIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.consultarPrestamoQueSePrestoCopiaEjemplarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.copiaEjemplar.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.editorial.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.eliminarUniversidadesDeUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.iniciarSesionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.insertarAutorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.insertarEditorialResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.insertarTemaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.libro.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_AutoresDeLibroPorIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_AutoresDeLibroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_AutoresDeTesisPorIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_AutoresDeTesisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_LibrosDeAutorPorIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_LibrosDeAutorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_TemasDeTesisPorIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_TemasDeTesisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_TesisDeAutorPorIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_TesisDeAutorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_TesisDeTemaPorIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_TesisDeTemaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_UniversidadesDeUsuarioPorIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_UniversidadesDeUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_UsuariosDeUniversidadPorIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.listarTodos_UsuariosDeUniversidadResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.modificarPublicacionLibroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.modificarPublicacionTesisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.modificarUniversidadesAsociadasDeUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.modificarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mora.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mora_eliminarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mora_insertarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mora_listarTodosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mora_modificarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mora_obtenerPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mostrarBibliotecasDeUniversidadesDelProgramadorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mostrarPrestamosEnCursoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mostrarReservasEnCursoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.mostrarUltimosPrestamosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.nuevaPublicacionLibroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.nuevaPublicacionTesisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.ObtenerCopiasEjemplaresDeLibroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.ObtenerCopiasEjemplaresDeTesisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.obtenerPorAtributosUnicosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.obtenerPorId_copia_ejemplarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.obtenerPorId_PrestamoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.penalizacion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politica.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicaPrestamo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicaprestamo_eliminarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicaprestamo_insertarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicaprestamo_listarTodosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicaprestamo_modificarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicaprestamo_obtenerPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicaReserva.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicareserva_eliminarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicareserva_insertarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicareserva_listarTodosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicareserva_modificarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politicareserva_obtenerPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politica_eliminarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politica_insertarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politica_listarTodosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politica_modificarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.politica_obtenerPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.prestamo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.publicacion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.publicacionesPorAutorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.registrarMiembroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.registrarPrestamoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.reserva.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.retornarNombreDelSevicioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.solicitarAmpliacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.solicitarReservaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.tema.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.tesis.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.universidad.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.universidad_eliminarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.universidad_insertarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.universidad_listarTodosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.universidad_modificarResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.universidad_obtenerPorIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.usuario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.usuario_listarTodosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.verCatalogoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.verDetallePublicacionLibroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.verDetallePublicacioTesisResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServicioWeb\SoftBibliotecaBO.ServicioWeb.verPenalizacionesPrestamoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\Reportes\" />
+    <WCFMetadataStorage Include="Connected Services\ServicioWeb\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServicioWeb\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServicioWeb\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServicioWeb\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Reportes\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Reportes\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Reportes\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

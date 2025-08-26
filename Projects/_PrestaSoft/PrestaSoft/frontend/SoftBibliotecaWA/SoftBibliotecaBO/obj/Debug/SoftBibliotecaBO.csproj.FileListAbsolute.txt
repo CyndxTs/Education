@@ -1,0 +1,140 @@
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+D:\PUCP\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+D:\PUCP\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+D:\PUCP\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+D:\PUCP\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+D:\PUCP\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+D:\PUCP\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+D:\PUCP\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\PruebaFinal\Prueba3\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\aayal\Desktop\PruebaFinal\Prueba3\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\PruebaFinal\Prueba3\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\PruebaFinal\Prueba3\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\aayal\Desktop\PruebaFinal\Prueba3\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\aayal\Desktop\PruebaFinal\Prueba3\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\PruebaFinal\Prueba3\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\Prueba4\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\aayal\Desktop\Prueba4\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\Prueba4\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\Prueba4\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\aayal\Desktop\Prueba4\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\aayal\Desktop\Prueba4\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\Prueba4\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\sebas\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\sebas\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\Desktop\Entrega_VK\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\sebas\Desktop\Entrega_VK\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\Desktop\Entrega_VK\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\Desktop\Entrega_VK\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\sebas\Desktop\Entrega_VK\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\Entrega_VK\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\Desktop\Entrega_VK\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\Documents\cyndx.concat(diago.concat(giano.concat(rodrigo)))\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\sebas\Documents\cyndx.concat(diago.concat(giano.concat(rodrigo)))\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\Documents\cyndx.concat(diago.concat(giano.concat(rodrigo)))\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\Documents\cyndx.concat(diago.concat(giano.concat(rodrigo)))\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\sebas\Documents\cyndx.concat(diago.concat(giano.concat(rodrigo)))\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Documents\cyndx.concat(diago.concat(giano.concat(rodrigo)))\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\Documents\cyndx.concat(diago.concat(giano.concat(rodrigo)))\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\Desktop\biblioteca\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\sebas\Desktop\biblioteca\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\Desktop\biblioteca\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\Desktop\biblioteca\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\sebas\Desktop\biblioteca\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\biblioteca\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\Desktop\biblioteca\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\prestasoft\PrestaSoft localhost\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\User\Desktop\prestasoft\PrestaSoft localhost\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\prestasoft\PrestaSoft localhost\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\prestasoft\PrestaSoft localhost\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\prestasoft\PrestaSoft localhost\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\prestasoft\PrestaSoft localhost\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\prestasoft\PrestaSoft localhost\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb
+D:\PUCP\Cursos\Programacion\P3\TA\prestasoft\PrestaSoft\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll.config
+D:\PUCP\Cursos\Programacion\P3\TA\prestasoft\PrestaSoft\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.dll
+D:\PUCP\Cursos\Programacion\P3\TA\prestasoft\PrestaSoft\frontend\SoftBibliotecaWA\SoftBibliotecaBO\bin\Debug\SoftBibliotecaBO.pdb
+D:\PUCP\Cursos\Programacion\P3\TA\prestasoft\PrestaSoft\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.AssemblyReference.cache
+D:\PUCP\Cursos\Programacion\P3\TA\prestasoft\PrestaSoft\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.csproj.CoreCompileInputs.cache
+D:\PUCP\Cursos\Programacion\P3\TA\prestasoft\PrestaSoft\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.dll
+D:\PUCP\Cursos\Programacion\P3\TA\prestasoft\PrestaSoft\frontend\SoftBibliotecaWA\SoftBibliotecaBO\obj\Debug\SoftBibliotecaBO.pdb

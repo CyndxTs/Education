@@ -1,0 +1,196 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Blank_A4" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="45e19f99-9280-42d3-b5a6-3d56ab25a5d9">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ta_provisional"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="232"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="761"/>
+	<parameter name="fechaRegistroMinima" class="java.sql.Date"/>
+	<parameter name="fechaRegistroMaxima" class="java.sql.Date"/>
+	<parameter name="cantidadSancionesMinima" class="java.lang.Integer"/>
+	<parameter name="cantidadSancionesMaxima" class="java.lang.Integer"/>
+	<parameter name="idUniversidad" class="java.lang.Integer"/>
+	<parameter name="limiteUsuarios" class="java.lang.Integer"/>
+	<parameter name="descripcion" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String"/>
+	<query language="SQL"><![CDATA[CALL ResultadoMiembrosReporteMiembros( $P{fechaRegistroMinima} , $P{fechaRegistroMaxima},  $P{cantidadSancionesMinima},  $P{cantidadSancionesMaxima}, $P{idUniversidad}, $P{limiteUsuarios}); ]]></query>
+	<field name="ID_USUARIO" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="ID_USUARIO"/>
+		<property name="com.jaspersoft.studio.field.label" value="ID_USUARIO"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ResultadoMiembros"/>
+	</field>
+	<field name="NOMBRE_COMPLETO" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="NOMBRE_COMPLETO"/>
+		<property name="com.jaspersoft.studio.field.label" value="NOMBRE_COMPLETO"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ResultadoMiembros"/>
+	</field>
+	<field name="CORREO" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="CORREO"/>
+		<property name="com.jaspersoft.studio.field.label" value="CORREO"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ResultadoMiembros"/>
+	</field>
+	<field name="NUM_RESERVAS_REALIZADAS" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="NUM_RESERVAS_REALIZADAS"/>
+		<property name="com.jaspersoft.studio.field.label" value="NUM_RESERVAS_REALIZADAS"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ResultadoMiembros"/>
+	</field>
+	<field name="NUM_RESERVAS_RECOGIDAS" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="NUM_RESERVAS_RECOGIDAS"/>
+		<property name="com.jaspersoft.studio.field.label" value="NUM_RESERVAS_RECOGIDAS"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ResultadoMiembros"/>
+	</field>
+	<field name="NUM_PRESTAMOS_REALIZADOS" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="NUM_PRESTAMOS_REALIZADOS"/>
+		<property name="com.jaspersoft.studio.field.label" value="NUM_PRESTAMOS_REALIZADOS"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ResultadoMiembros"/>
+	</field>
+	<field name="NUM_PRESTAMOS_ATRASADOS" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="NUM_PRESTAMOS_ATRASADOS"/>
+		<property name="com.jaspersoft.studio.field.label" value="NUM_PRESTAMOS_ATRASADOS"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ResultadoMiembros"/>
+	</field>
+	<field name="NUM_PENALIZACIONES" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="NUM_PENALIZACIONES"/>
+		<property name="com.jaspersoft.studio.field.label" value="NUM_PENALIZACIONES"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ResultadoMiembros"/>
+	</field>
+	<field name="MONTO_TOTAL_PENALIZACIONES" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="MONTO_TOTAL_PENALIZACIONES"/>
+		<property name="com.jaspersoft.studio.field.label" value="MONTO_TOTAL_PENALIZACIONES"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ResultadoMiembros"/>
+	</field>
+	<background splitType="Stretch"/>
+	<title height="117" splitType="Stretch">
+		<element kind="staticText" uuid="cf96426a-8489-4f02-841b-71a5998f442a" x="118" y="0" width="318" height="40" fontSize="27.0" hTextAlign="Center">
+			<text><![CDATA[Reporte de miembros]]></text>
+		</element>
+		<element kind="staticText" uuid="bcd1f92a-db27-4d7f-a812-648fc76e3b12" x="60" y="40" width="110" height="30" fontSize="12.0">
+			<text><![CDATA[Registrados desde]]></text>
+		</element>
+		<element kind="textField" uuid="04cfbe5f-dcad-4c2a-8f91-b663c678e0e1" x="170" y="40" width="100" height="30" pattern="dd/MM/yyyy">
+			<expression><![CDATA[$P{fechaRegistroMinima} == null? "el inicio" : $P{fechaRegistroMinima}]]></expression>
+		</element>
+		<element kind="staticText" uuid="cb24f8d6-f282-41a2-bc58-f1c0b450c1a3" x="270" y="40" width="110" height="30" fontSize="12.0">
+			<text><![CDATA[Hasta]]></text>
+		</element>
+		<element kind="textField" uuid="57bd6014-38c1-4252-a8cb-2ba63a00030d" x="380" y="40" width="100" height="30" pattern="dd/MM/yyyy">
+			<expression><![CDATA[$P{fechaRegistroMaxima}==null?new java.util.Date():$P{fechaRegistroMaxima}]]></expression>
+		</element>
+		<element kind="staticText" uuid="446f4e91-c790-4266-9992-69d9c803ec88" x="40" y="70" width="210" height="30" fontSize="12.0">
+			<text><![CDATA[Con cantidad mínima de sanciones de: ]]></text>
+		</element>
+		<element kind="textField" uuid="9ba18cda-3d9d-493f-a254-c8559ab93d21" x="250" y="70" width="19" height="30">
+			<expression><![CDATA[$P{cantidadSancionesMinima}]]></expression>
+		</element>
+		<element kind="staticText" uuid="edcd6922-336d-4eef-ba95-9d2cc72d4389" x="266" y="70" width="119" height="30" fontSize="12.0">
+			<text><![CDATA[y máxima de:]]></text>
+		</element>
+		<element kind="textField" uuid="3297919d-b391-4245-8dab-a98ea3406457" x="385" y="70" width="15" height="30">
+			<expression><![CDATA[$P{cantidadSancionesMaxima}]]></expression>
+		</element>
+	</title>
+	<pageHeader height="82" splitType="Stretch">
+		<element kind="textField" uuid="28c03000-6c42-488c-a124-e19c63740f44" x="20" y="0" width="300" height="19">
+			<expression><![CDATA[$P{descripcion}==null?"":$P{descripcion}]]></expression>
+		</element>
+		<element kind="subreport" uuid="9f7d3ecc-2a74-47f9-a057-09276e4d9e82" x="120" y="20" width="301" height="31">
+			<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+			<expression><![CDATA[$P{SUBREPORT_DIR}+"resumenReporteMiembros.jasper"]]></expression>
+			<parameter name="fechaRegistroMinima">
+				<expression><![CDATA[$P{fechaRegistroMinima}]]></expression>
+			</parameter>
+			<parameter name="fechaRegistroMaxima">
+				<expression><![CDATA[$P{fechaRegistroMaxima}]]></expression>
+			</parameter>
+			<parameter name="cantidadSancionesMinima">
+				<expression><![CDATA[$P{cantidadSancionesMinima}]]></expression>
+			</parameter>
+			<parameter name="cantidadSancionesMaxima">
+				<expression><![CDATA[$P{cantidadSancionesMaxima}]]></expression>
+			</parameter>
+			<parameter name="idUniversidad">
+				<expression><![CDATA[$P{idUniversidad}]]></expression>
+			</parameter>
+			<parameter name="limiteUsuarios">
+				<expression><![CDATA[$P{limiteUsuarios}]]></expression>
+			</parameter>
+			<parameter name="descripcion">
+				<expression><![CDATA[$P{descripcion}]]></expression>
+			</parameter>
+		</element>
+		<element kind="staticText" uuid="b74541e8-63c6-49a4-a1de-6bb06fbf7244" x="20" y="30" width="100" height="30">
+			<text><![CDATA[Resumen:]]></text>
+		</element>
+		<element kind="line" uuid="feaa4f9a-d3b0-4d34-a869-e13dd25feb2d" x="-30" y="70" width="595" height="1"/>
+	</pageHeader>
+	<detail>
+		<band height="180" splitType="Stretch">
+			<element kind="textField" uuid="02a9924a-4551-422b-82a9-ee4abc4eb141" x="120" y="40" width="100" height="30">
+				<expression><![CDATA[$F{ID_USUARIO}]]></expression>
+			</element>
+			<element kind="staticText" uuid="612fb30c-ac75-4a86-9b7c-cd466635d793" x="20" y="40" width="100" height="30">
+				<text><![CDATA[ID:]]></text>
+			</element>
+			<element kind="textField" uuid="058fb0a4-df12-4fa8-b371-290291e5ef6e" x="120" y="10" width="100" height="30">
+				<expression><![CDATA[$F{NOMBRE_COMPLETO}]]></expression>
+			</element>
+			<element kind="staticText" uuid="12e1ceed-b592-4f5a-bc28-5133a2f5e833" x="20" y="10" width="100" height="30">
+				<text><![CDATA[Usuario:]]></text>
+			</element>
+			<element kind="textField" uuid="7f90be9b-a2db-4ab4-80f3-dc9cf266fe4d" x="120" y="70" width="100" height="30">
+				<expression><![CDATA[$F{CORREO}]]></expression>
+			</element>
+			<element kind="staticText" uuid="f20ca895-789b-456c-a139-9b010b573857" x="20" y="70" width="100" height="30">
+				<text><![CDATA[Correo de contacto:]]></text>
+			</element>
+			<element kind="textField" uuid="860f074d-68fe-4f95-b15a-244de6ba2016" x="410" y="0" width="100" height="30">
+				<expression><![CDATA[$F{NUM_RESERVAS_REALIZADAS}]]></expression>
+			</element>
+			<element kind="staticText" uuid="5ab37ac3-2acb-47a8-89c6-8d6fc07ac309" x="260" y="0" width="100" height="30">
+				<text><![CDATA[Número de reservas realizadas:]]></text>
+			</element>
+			<element kind="textField" uuid="58bd1937-cccd-4a69-b735-9c23c313a4ae" x="410" y="30" width="100" height="30">
+				<expression><![CDATA[$F{NUM_RESERVAS_RECOGIDAS}]]></expression>
+			</element>
+			<element kind="staticText" uuid="254b4e63-2bb3-45ae-9f03-8542f9a73fc2" x="260" y="30" width="100" height="30">
+				<text><![CDATA[Número de reservas recogidas]]></text>
+			</element>
+			<element kind="textField" uuid="1c16eb33-b521-469e-abbe-8dd1cdd71f66" x="410" y="60" width="100" height="30">
+				<expression><![CDATA[$F{NUM_PRESTAMOS_REALIZADOS}]]></expression>
+			</element>
+			<element kind="staticText" uuid="47d75968-47d6-40ba-a908-ee11517cb66b" x="260" y="60" width="100" height="30">
+				<text><![CDATA[Número de préstamos realizados]]></text>
+			</element>
+			<element kind="textField" uuid="1487930e-3318-4524-b667-b319a6d21c86" x="410" y="90" width="100" height="30">
+				<expression><![CDATA[$F{NUM_PRESTAMOS_ATRASADOS}]]></expression>
+			</element>
+			<element kind="staticText" uuid="acb15655-e138-449b-82ef-c82699b3eac7" x="260" y="90" width="100" height="30">
+				<text><![CDATA[Número de préstamos atrasados]]></text>
+			</element>
+			<element kind="textField" uuid="924c7c83-2a02-4335-8602-f44177bf9b0b" x="410" y="120" width="100" height="30">
+				<expression><![CDATA[$F{NUM_PENALIZACIONES}]]></expression>
+			</element>
+			<element kind="staticText" uuid="552bdd58-8e25-481d-9dc3-a36bb14d5bc0" x="260" y="120" width="100" height="30">
+				<text><![CDATA[Número de penalizaciones]]></text>
+			</element>
+			<element kind="textField" uuid="53c59e2c-e66a-49fe-880b-89ab8ae614bb" x="120" y="120" width="100" height="30">
+				<expression><![CDATA[$F{MONTO_TOTAL_PENALIZACIONES}]]></expression>
+			</element>
+			<element kind="staticText" uuid="a7db09be-71b9-4a02-a12b-87409385407e" x="20" y="120" width="100" height="30">
+				<text><![CDATA[Monto total en penalizaciones]]></text>
+			</element>
+			<element kind="rectangle" uuid="fae0cf44-5aa8-4c8f-90d6-3e0c3a1b281e" x="-20" y="159" width="593" height="20" forecolor="rgba(0, 0, 0, 0.0)" backcolor="#D9D9D9"/>
+		</band>
+	</detail>
+	<pageFooter height="58" splitType="Stretch">
+		<element kind="textField" uuid="6e775445-09fd-49bc-b53c-a901dd020ea0" x="90" y="10" width="100" height="30" pattern="dd/MM/yyyy" linkType="None" linkTarget="Self">
+			<expression><![CDATA[new java.util.Date()]]></expression>
+		</element>
+		<element kind="staticText" uuid="5aba408c-1a56-48b6-814f-c82aacdff1cb" x="-10" y="10" width="100" height="30">
+			<text><![CDATA[Reporte emitido el:]]></text>
+		</element>
+		<element kind="textField" uuid="e21b0235-fe23-44d4-972d-3384433588ab" x="470" y="10" width="100" height="30">
+			<expression><![CDATA[$V{PAGE_NUMBER}]]></expression>
+		</element>
+	</pageFooter>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>

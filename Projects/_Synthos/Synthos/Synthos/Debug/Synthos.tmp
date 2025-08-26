@@ -1,0 +1,53 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16"</DEVICE>
+ <WORKING_DIR>D:\CDX\Workspace\_Synthos\Synthos\Synthos\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\Debug\Synthos.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Synthos.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Synthos.map</FILE>
+  <FILE>Synthos.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Synthos><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>213</LINE></Synthos>
+  <ProcesarSemifusa><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>289</LINE></ProcesarSemifusa>
+  <NotasMusicales><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>15</LINE></NotasMusicales>
+  <SeccionesMusicales><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>39</LINE></SeccionesMusicales>
+  <CargarVisualizador><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>409</LINE></CargarVisualizador>
+  <CargarPatronDeSecciones><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>424</LINE></CargarPatronDeSecciones>
+  <EsperarActivacion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>232</LINE></EsperarActivacion>
+  <InicializarPunterosDeSeccion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>281</LINE></InicializarPunterosDeSeccion>
+  <Dormammu><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>271</LINE></Dormammu>
+  <EsperarDesactivacion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>274</LINE></EsperarDesactivacion>
+  <VisualizarNota><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>353</LINE></VisualizarNota>
+  <CargarProximaNota><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>312</LINE></CargarProximaNota>
+  <CargarProximaSeccion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>297</LINE></CargarProximaSeccion>
+  <PosicionarSeccion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>304</LINE></PosicionarSeccion>
+  <FinalizarReproduccion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>392</LINE></FinalizarReproduccion>
+  <FinDeSemifusa><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>357</LINE></FinDeSemifusa>
+  <CalcularDuracion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>318</LINE></CalcularDuracion>
+  <CalcularPosicion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>324</LINE></CalcularPosicion>
+  <PosicionarNota><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>335</LINE></PosicionarNota>
+  <ReproducirNota><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>344</LINE></ReproducirNota>
+  <ActualizarVisualizador><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>361</LINE></ActualizarVisualizador>
+  <Actualizar_Y><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>384</LINE></Actualizar_Y>
+  <CalcularSegmento><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>373</LINE></CalcularSegmento>
+  <FinDeVisualizacion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>388</LINE></FinDeVisualizacion>
+  <Actualizar_X><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>380</LINE></Actualizar_X>
+  <CalcularSegmentacion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>415</LINE></CalcularSegmentacion>
+  <FinDeSegmentacion><FILE>D:\CDX\Workspace\_Synthos\Synthos\Synthos\main.asm</FILE><LINE>421</LINE></FinDeSegmentacion>
+ </LABELS>
+</ASSEMBLER_INFO>

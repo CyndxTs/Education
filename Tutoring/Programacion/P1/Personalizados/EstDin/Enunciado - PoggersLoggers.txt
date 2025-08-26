@@ -1,0 +1,220 @@
+
+                     /*  - / > [ PoggersLoggers ] < / -  */
+                                   By: Candy
+
+Imagina que una empresa con mucha ansiedad social revisa sus ultimas valoraciones dadas por
+usuarios. A partir de ahí obtiene el archivo 'Valoraciones.txt', el cual contiene por fila los
+siguientes datos:
+	- Codigo de usuario que realizó la valoración
+	- Instante en el que se realizó la valoración (hh:mm:ss)
+	- Fecha en la que se realizó la valoración (dd/mm/aaaa)
+	- Descripcion de la valoracion (Se espacia por '_')
+	- Valoracion dada al servicio (Entre 1 a 5)
+	- Numero de Likes que recibió la Valoracion por Otros Usuarios
+Cabe resaltar que un mismo usuario puede hacer varias valoraciones en un mismo día,
+y en diferentes días.
+
+Al notar la gran cantidad de valoraciones, la empresa decidió generar el registro de logs de los
+ultimos meses, obteniendo así el archivo 'Logs.txt', el cual contiene por fila los siguientes datos:
+	- Codigo de usuario que generó el 'Log'
+	- Instante en que el usuario realizó un 'LOGIN'
+	- Fecha en el que se realizó el 'Log'
+(El archivo 'Logs.txt' está ordenado cronologicamente ascendente por fecha e instante de 'LOGIN')
+Debe considerar que un usuario puede haber realizado varios 'LOGIN' en el mismo día, y en diferentes
+días.
+
+Finalmente, la empresa le encarga a usted, como trabajor de poco aprecio personal, realizar DOS
+reportes. Para ello, le brinda los archivos mencionados, y, en adición, el archivo 'Usuarios.txt',
+el cual contiene los siguientes registros por fila:
+	- Codigo de Usuario
+	- Nickname de Usuario
+	- Termino de Privacidad ('V' = Cuenta Privada || 'F' = Cuenta Pública)
+	- Fecha de Nacimiento
+En este caso, los usuarios NO se repiten por fila.
+
+El primer reporte mostrara un resumen de estadisticas de todas las valoraciones realizadas por cada
+usuario. Para ello se debe mostrar por fila:
+	- Codigo de usuario que realizo la valoración
+	- Nickname y fecha de nacimiento del usuario para cuentas'públicas'. En caso sea una cuenta
+	  'privada', debe mostrar el mensaje 'HIDDEN'
+	- Cantidad total de Valoraciones realizadas
+	- Numero de máximo de Likes obtenido de sus valoraciones
+	- Promedio de Calificacion de sus Valoraciones
+El reporte debería ser similar a este:
+
+                                     RESUMEN DE VALORACIONES POR USUARIO
+=============================================================================================================
+    USUARIO    NICKNAME                FECHA NAC.    CANT. VALORACIONES    MAX. LIKES    PROM. VALORACION
+-------------------------------------------------------------------------------------------------------------
+     56157     >>>>>>>>>>>>> HIDDEN <<<<<<<<<<<<<             1                954             5.00
+     56999     @zorrito13              07/07/1932             3                898             3.33
+     52616     >>>>>>>>>>>>> HIDDEN <<<<<<<<<<<<<             1                857             2.00
+     23767     @h4ckr                  26/11/1992             2                706             4.00
+	 ...
+=============================================================================================================
+
+El segundo reporte mostrará un detalle de los logs recibidos por cada fecha por cada usuario.
+Para ello se deben presentar un reporte que detalle cada fecha. En cada fecha debe mostrar un
+detalle de los logs de cada usuario de ese día. Ese detalle de usuario muestra su código y después
+una lista que con los tiempos de cada log de la siguente manera:
+	- Referencia Inicial  = Instante de último log (inicialmente es el instante de'LOGIN')
+	- Referencia Final = Instante de valoracion
+	- Transcurrido = Tiempo de transcurrido entre ambas referencias
+Cabe resaltar que cada 'LOGIN' se debe indicar siendo precedido por '[+]', y cada otro 'log' debe
+ser precedido por ' ~ '. El reporte debería ser similar a este:
+
+           LOGS DE USUARIOS CON VALORACIONES
+========================================================
+[#] USUARIO :: [45987] - crazyfrog
+--------------------------------------------------------
+                 LOGS DEL '19/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 15:25:45  >>  16:41:45  ::  01:16:00
+         ~  16:41:45  >>  16:41:59  ::  00:00:14
+         ~  16:41:59  >>  16:42:18  ::  00:00:19
+        [+] 16:55:00  >>  17:35:19  ::  00:40:19
+         ~  17:35:19  >>  17:49:29  ::  00:14:10
+********************************************************
+                 LOGS DEL '24/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 19:05:46  >>  19:46:30  ::  00:40:44
+========================================================
+[#] USUARIO :: [52616] - PERFIL PRIVADO
+--------------------------------------------------------
+                 LOGS DEL '22/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 10:50:14  >>  11:21:50  ::  00:31:36
+========================================================
+[#] USUARIO :: [52451] - PERFIL PRIVADO
+--------------------------------------------------------
+                 LOGS DEL '21/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 07:45:11  >>  07:55:06  ::  00:09:55
+        [+] 08:02:07  >>  08:53:01  ::  00:50:54
+        [+] 16:07:52  >>  16:34:36  ::  00:26:44
+========================================================
+[#] USUARIO :: [56999] - h4ckr
+--------------------------------------------------------
+                 LOGS DEL '20/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 04:57:30  >>  06:37:51  ::  01:40:21
+        [+] 09:30:57  >>  14:17:30  ::  04:46:33
+         ~  14:17:30  >>  14:18:45  ::  00:01:15
+********************************************************
+                 LOGS DEL '22/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 20:21:47  >>  21:35:58  ::  01:14:11
+========================================================
+[#] USUARIO :: [23767] - shadowx
+--------------------------------------------------------
+                 LOGS DEL '21/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 13:15:41  >>  13:35:19  ::  00:19:38
+********************************************************
+                 LOGS DEL '22/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 17:06:30  >>  18:05:30  ::  00:59:00
+========================================================
+[#] USUARIO :: [57224] - pixelrage
+--------------------------------------------------------
+                 LOGS DEL '22/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 17:44:50  >>  17:55:30  ::  00:10:40
+         ~  17:55:30  >>  17:57:32  ::  00:02:02
+         ~  17:57:32  >>  17:58:07  ::  00:00:35
+********************************************************
+                 LOGS DEL '23/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 06:04:11  >>  06:30:24  ::  00:26:13
+========================================================
+[#] USUARIO :: [66659] - k3nsh1n
+--------------------------------------------------------
+                 LOGS DEL '23/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 22:59:57  >>  23:59:31  ::  00:59:34
+========================================================
+[#] USUARIO :: [29038] - PERFIL PRIVADO
+--------------------------------------------------------
+                 LOGS DEL '24/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 15:20:17  >>  16:24:22  ::  01:04:05
+========================================================
+[#] USUARIO :: [32320] - vortex77
+--------------------------------------------------------
+                 LOGS DEL '20/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 16:00:18  >>  16:14:09  ::  00:13:51
+========================================================
+[#] USUARIO :: [13303] - PERFIL PRIVADO
+--------------------------------------------------------
+                 LOGS DEL '23/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 23:22:11  >>  23:39:50  ::  00:17:39
+========================================================
+[#] USUARIO :: [56157] - PERFIL PRIVADO
+--------------------------------------------------------
+                 LOGS DEL '24/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 08:43:59  >>  08:50:48  ::  00:06:49
+========================================================
+[#] USUARIO :: [83106] - PERFIL PRIVADO
+--------------------------------------------------------
+                 LOGS DEL '24/03/2025'
+--------------------------------------------------------
+            REF. INI      REF. FIN    TRANSCURRIDO
+        [+] 23:34:03  >>  23:45:25  ::  00:11:22
+========================================================
+
+Para NO requerir el uso de 'punteros dobles' para la realización de este reporte, debe considerar
+que las sesiones se renuevan diariamente; es decir, cada usuario debe haber hecho minimamente un
+'LOGIN' en el mismo día antes de realizar su respectiva valoración. Entonces inicialmente, todos los
+'Log' empezarán con un instante de valoración '0'. Después de la primera valoración solo debe
+actualizar el 'instante de valoración' y 'tiempo transcurrido' (respecto al instante de 'LOGIN').
+Luego, en caso el usuario haga más valoraciones durante la misma sesión ('LOGIN'), deben insertar un
+nuevo registro 'Log' en la posición siguiente del registro, copiando todos los valores anteriores,
+excepto los de 'instante de valoracion' y 'tiempo transcurrido', pues ahora estos se actualizaran
+con los valores respectivos a la valoración (aquí el tiempo transcurrido se calcula respecto a su
+ANTERIOR 'instante de valoración'). Es decir, tus registros de 'Log' deberían poder acabar algo así:
+
+idUsuario1	instLogin_1		fecha_1	  instValoración_1   Transcurrido_Login1_V1
+idUsuario1	instLogin_1		fecha_1	  instValoración_2   Transcurrido_V1_V2
+idUsuario1	instLogin_1		fecha_1	  instValoración_3   Transcurrido_V2_V3
+idUsuario2 ..
+..
+idUsuario1	instLogin_2		fecha_2	  instValoracion_4   Transcurrido_Login2_V4
+idUsuario1	instLogin_2		fecha_2	  instValoracion_5   Transcurrido_V4_V5
+idUsuario1	instLogin_2		fecha_2	  instValoracion_6   Transcurrido_V5_V6
+..
+
+Cabe resaltar que debe posicionarse en la región del LOGIN anterior más cronologicamente proximo al
+instante de Valoración de la misma fecha. Es decir, si un usuario ha hecho 'LOGIN' a las 2pm,3pm y
+5pm de un mismo día, y su valoración fue hecha a las '3:37 pm' del mismo día, debe tomarla parte del
+LOGIN de las '3pm'.
+
+CONDICIONES:
+- Como máximo se tendrán 100 Usuarios y 500 Logs.
+- Los datos de 'Usuarios.txt' deben ser insertados 'ordenadamente' de manera ascendente por su
+  codigo.
+- Solo se pueden realizar busquedas binarias en los registros obtenidos a partir de 'Usuarios.txt'
+- Se deben eliminar los registros de usuarios que no hayan realizado valoraciones.
+- El primer reporte debe estar ordenado descendentemente por el número máximo de likes, prefiriendo
+  de primero a los perfiles públicos.
+- El segundo reporte además de estar ordenado cronologicamente, debe agregar un ordenamiento
+  ascendente por codigo de usuario en la misma fecha.
+- Usted debe generar los arreglos necesarios, las funciones de emisión de reporte deben contener
+  únicamente métodos de impresión.

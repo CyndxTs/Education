@@ -1,0 +1,18 @@
+[#] MIEMBRO:
+Correo:			diegolavadoc@gmail.com
+Contraseña:		123
+
+
+[#] BIBLIOTECARIO:
+Correo:			diegolavadoc@gmail.com
+Contraseña:		123
+
+
+[#] PROGRAMADOR:
+Correo:			a20211000@pucp.edu.pe
+Contraseña:		123
+
+
+[#] ADMINISTRADOR:
+Correo:			a20212662@pucp.edu.pe
+Contraseña:		123

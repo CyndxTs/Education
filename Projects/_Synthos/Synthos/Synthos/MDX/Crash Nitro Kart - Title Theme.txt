@@ -1,0 +1,504 @@
+; By: Argedia & CyndxTs
+; Declaracion de Constantes de Programa
+.EQU NumNotas	=	24
+.EQU Pos_S		=	NumNotas - 1	; 'NumNotas - 1' pues en este caso esta en la ultima posicion, pero esto obviamente puede variar..
+.EQU Posiciones	=	0x0060
+.EQU Duraciones	=	0x00C0
+
+; Vectores de Programa
+.CSEG
+.ORG 0		RJMP	Synthos
+.ORG 0x26	RJMP	ProcesarSemifusa
+.ORG 0x30
+
+; Almacenamiento de Notas Musicales en Flash
+NotasMusicales:
+.DW 0x00EE	; OCR1A de C7
+.DW 0x013F	; OCR1A de G6
+.DW 0x0166	; OCR1A de F6
+.DW 0x0191	; OCR1A de D6E6
+.DW 0x01A9	; OCR1A de D6
+.DW 0x01DE	; OCR1A de C6
+.DW 0x0218	; OCR1A de A5B5
+.DW 0x0238	; OCR1A de A5
+.DW 0x025A	; OCR1A de G5A5
+.DW 0x027E	; OCR1A de G5
+.DW 0x02CC	; OCR1A de F5
+.DW 0x02F6	; OCR1A de E5
+.DW 0x0323	; OCR1A de D5E5
+.DW 0x0353	; OCR1A de D5
+.DW 0x03BC	; OCR1A de C5
+.DW 0x0430	; OCR1A de A4B4
+.DW 0x077B	; OCR1A de C4
+.DW 0x0861	; OCR1A de A3B3
+.DW 0x08E0	; OCR1A de A3
+.DW 0x0A04	; OCR1A de G3
+.DW 0x0C99	; OCR1A de D3E3
+.DW 0x0F06	; OCR1A de C3
+.DW 0x0		; OCR1A de S
+
+; Almacenamiento de las Secciones Musicales en Flash
+SeccionesMusicales:
+.DB 0b00101010, 0b10110100
+.DB 0b00000010, 0b10110100
+.DB 0b00110011, 0b10110101
+.DB 0b01001011, 0b10110101
+.DB 0b10110100, 0b10110110
+.DB 0b01100011, 0b10110101
+.DB 0b10110011, 0b10110101
+.DB 0b01011011, 0b10110101
+.DB 0b01001011, 0b10110101
+.DB 0b01001011, 0b10110101
+.DB 0b01100011, 0b10110101
+.DB 0b01011011, 0b10110101
+.DB 0b01001011, 0b10110101
+.DB 0b00110011, 0b10110101
+.DB 0b10110010, 0b10110100
+.DB 0b00101010, 0b10110100
+.DB 0b00110011, 0b10110101
+.DB 0b01001011, 0b10110101
+.DB 0b10110011, 0b10110101
+.DB 0b01100011, 0b10110101
+.DB 0b10110011, 0b10110101
+.DB 0b01011011, 0b10110101
+.DB 0b01001010, 0b10110100
+.DB 0b00110010, 0b10110100
+.DB 0b01000010, 0b10110100
+.DB 0b10110010, 0b10110100
+.DB 0b00101010, 0b10110100
+.DB 0b00110011, 0b10110101
+.DB 0b00101011, 0b10110101
+.DB 0b00101011, 0b10110101
+.DB 0b00011011, 0b10110101
+.DB 0b00010011, 0b10110101
+.DB 0b00011011, 0b10110101
+.DB 0b00101011, 0b10110101
+.DB 0b00010011, 0b10110101
+.DB 0b00100011, 0b10110101
+.DB 0b00101011, 0b10110101
+.DB 0b00001011, 0b10110101
+.DB 0b00001011, 0b10110101
+.DB 0b00010011, 0b10110101
+.DB 0b00010011, 0b10110101
+.DB 0b00011011, 0b10110101
+.DB 0b00100011, 0b10110101
+.DB 0b00101011, 0b10110101
+.DB 0b00101011, 0b10110101
+.DB 0b00110011, 0b10110101
+.DB 0b01001011, 0b10110101
+.DB 0b01001011, 0b10110101
+.DB 0b00110011, 0b10110101
+.DB 0b00101011, 0b10110101
+.DB 0b00101011, 0b10110101
+.DB 0b00111011, 0b10110101
+.DB 0b00111011, 0b10110101
+.DB 0b01001011, 0b10110101
+.DB 0b01010011, 0b10110101
+.DB 0b01110100, 0b10110110
+.DB 0b01111100, 0b10110110
+.DB 0b01110100, 0b10110110
+.DB 0b01100100, 0b10110110
+.DB 0b01010100, 0b10110110
+.DB 0b01101100, 0b10110110
+.DB 0b01010100, 0b10110110
+.DB 0b01001100, 0b10110110
+.DB 0b00110100, 0b10110110
+.DB 0b00101100, 0b10110110
+.DB 0b00111100, 0b10110110
+.DB 0b00101100, 0b10110110
+.DB 0b00101100, 0b10110110
+.DB 0b00011100, 0b10110110
+.DB 0b00101100, 0b10110110
+.DB 0b00100100, 0b10110110
+.DB 0b10000011, 0b10110101
+.DB 0b10101011, 0b10110101
+.DB 0b10011011, 0b10110101
+.DB 0b10100011, 0b10110101
+.DB 0b10001010, 0b10110100
+.DB 0b10000010, 0b10110100
+.DB 0b10001001, 0b10110011
+.DB 0b10101011, 0b10110101
+.DB 0b10011011, 0b10110101
+.DB 0b10110100, 0b10110110
+.DB 0b10011011, 0b10110101
+.DB 0b10100010, 0b10110100
+.DB 0b10011010, 0b10110100
+.DB 0b10011010, 0b10110100
+.DB 0b10001011, 0b10110101
+.DB 0b10010011, 0b10110101
+.DB 0b10110100, 0b10110110
+.DB 0b10011010, 0b10110100
+.DB 0b10100011, 0b10110101
+.DB 0b10101010, 0b10110100
+
+; Welcome to Synthos!
+Synthos:
+	; Inicializacion de Elementos [STACK]
+	LDI		R16, high(RAMend)
+	OUT		SPH, R16
+	LDI		R16, low(RAMend)
+	OUT		SPL, R16
+	; Inicializacion de Elementos [I/O] {A (Entrada)}
+	CLR		R16
+	OUT		ddrA, R16
+	; Inicializacion de Elementos [I/O] {B (Salida), C (Salida), D (Salida)}
+	SER		R16
+	OUT		ddrB, R16
+	OUT		ddrC, R16
+	OUT		ddrD, R16
+	; Inicialización de Elementos [Visualizador de Audio]
+	RCALL	CargarVisualizador
+	; Inicializacion de Elementos [Patrón de Secciones]
+	RCALL	CargarPatronDeSecciones
+	; Activación de Programa
+	EsperarActivacion:
+	IN		R16,pinA
+	CPI		R16,0
+   	BREQ	EsperarActivacion
+	; Inicialización de Elementos [Punteros a Datos de Sección]
+	RCALL	InicializarPunterosDeSeccion
+	; Inicializacion de Elementos [Timer Counter 0]
+	; TCCR0 [CTC][N = 64]
+	LDI		R16, (1 << WGM01 | 0 << WGM00 | 0<<CS02 | 1 << CS01 | 1 << CS00)
+	OUT		TCCR0, R16
+	; OCR0
+	LDI		R16, 244
+	OUT		OCR0, R16
+	; TIMSK
+	LDI		R16, (1 << OCIE0)
+	OUT		TIMSK, R16
+	; Inicializacion de Elementos [Timer Counter 1]
+	; TCCR1A [CTC][N = 1]
+	LDI		R16, (0 << WGM11 | 0 << WGM10 | 0 << COM1A1 | 1 << COM1A0)
+	OUT		TCCR1A, R16
+	; TCCR1B [CTC][N = 1]
+	LDI		R16, (0 << WGM13 | 1 << WGM12 | 0 << CS12 | 0 << CS11 | 1 << CS10)
+	OUT		TCCR1B, R16
+	; OCR1A
+	CLR		R16
+	OUT		OCR1AH, R16
+	OUT		OCR1AL, R16
+	; Inicializacion de Elementos [Registros Auxiliares]
+							; R16 = Registro Multipropósito
+	CLR		R17				; R17 = Medida de Seccion
+	LDI		R18, 1			; R18 = Duracion de Nota
+							; R19 = Registro Multipropósito
+							; R20 = Medida de Segmentación de Visualizador
+							; R21 = Posición de Nota
+							; R22 =	Valor Acumulado en Y [Matriz]
+	CLR		R23				; R23 = Señal de Fin de Reproducción // Lo haría simplemente con 'BRIE' o 'BRID', pero por algun motivo no funciona .-.
+	; Inicializacion de Elementos [Interrupciones]
+	SEI
+	; Dormammu he venido para negociar.jpg
+	Dormammu:
+	SBRS	R23, 0	
+	RJMP	Dormammu
+	EsperarDesactivacion:
+	IN		R16, pinA
+	CPI		R16, 0
+	BRNE	EsperarDesactivacion
+	RJMP	EsperarActivacion
+
+; Inicialización de Punteros de Datos de Sección
+InicializarPunterosDeSeccion:
+	LDI		XH,	high(Posiciones)
+	LDI		XL,	low(Posiciones)
+	LDI		YH, high(Duraciones)
+	LDI		YL, low(Duraciones)
+RET
+
+; Subrutina de Interrupcion por Semifusa
+ProcesarSemifusa:
+	; Validación por Duración de Nota Anterior
+	DEC		R18
+	BRNE	VisualizarNota
+	; Validación por Duración de Sección Anterior
+	CPI		R17, 0
+	BRNE	CargarProximaNota
+	; Carga de Datos de Próxima Sección
+	CargarProximaSeccion:
+	LD		R17, Y+
+	CPI		R17, 0 
+	BRNE	PosicionarSeccion
+	RCALL	FinalizarReproduccion
+	RJMP	FinDeSemifusa
+	; Posicionamiento en Sección Cargada
+	PosicionarSeccion:
+	LDI		ZH, high(2*SeccionesMusicales)
+	LDI		ZL, low(2*SeccionesMusicales)
+	LD		R16, X+
+	ADD		ZL, R16
+	CLR		R16
+	ADC		ZH, R16
+	; Carga de Datos de Próxima Nota
+	CargarProximaNota:
+   	LPM		R16, Z+
+	LDI		R18, 0b00100000
+	LDI		R19, 0b00000111
+	AND		R19, R16
+	; Cálculo de Duración de Nota
+	CalcularDuracion:
+	DEC		R19
+	BREQ	CalcularPosicion
+	LSR		R18
+	RJMP	CalcularDuracion
+	; Cálculo de Posición de Nota
+	CalcularPosicion:
+	LSR		R16
+	LSR		R16
+	LSR		R16
+	MOV		R19, R16
+	LSL		R16
+	CP		R21, R19
+	BREQ	PosicionarNota
+	MOV		R21, R19
+	LDI		R22, 1
+	; Posicionamiento en Nota Cargada
+	PosicionarNota:
+	PUSH	ZL
+	PUSH	ZH
+	LDI		ZH, high(2*NotasMusicales)
+	LDI		ZL, low(2*NotasMusicales)
+	ADD		ZL, R16
+	CLR		R16
+	ADC		ZH, R16
+	; Reproducción de Nota
+	ReproducirNota:
+	LPM		R16, Z+
+	LPM		R19, Z+
+	OUT		OCR1AH, R19
+	OUT		OCR1AL, R16
+	DEC		R17
+	POP		ZH
+	POP		ZL
+	; Visualización de Nota
+	VisualizarNota:
+	SBRS	R18, 0
+	RCALL	ActualizarVisualizador
+	; Fin de Procesamiento de Semifusa
+	FinDeSemifusa:
+RETI
+
+; Subrutina de Visualización de Nota en Matriz LED
+ActualizarVisualizador:
+	; Validación de por Nueva Posición de Nota
+	CPI		R22, 1
+	BRNE	Actualizar_Y
+	LDI		R16, 0b00000001
+	CLR		R19
+	; Validación por Nota de 'Silencio'
+	CPI		R21, Pos_S
+	BRNE	CalcularSegmento
+	OUT		portC, R19
+	JMP		FinDeVisualizacion
+	; Cálculo de posición de Segmento [Posición X [Matriz]]
+	CalcularSegmento:
+	CP		R19, R21
+	BRGE	Actualizar_X
+	ADD		R19, R20
+	LSL		R16
+	JMP		CalcularSegmento
+	; Actualización de Posición de Segmento [Posición X [Matriz]]
+	Actualizar_X:
+	COM		R16
+	OUT		portB, R16
+	; Actualización de Posición Y de Segmento
+	Actualizar_Y:
+	OUT		portC, R22
+	LSL		R22
+	INC		R22
+	FinDeVisualizacion:
+RET
+
+; Subrutina de Finalización de Reproducción de Audio
+FinalizarReproduccion:
+	CLI
+	LDI		R16, (0<<WGM11 | 0<<WGM10 | 0<<COM1A1 | 0<<COM1A0 | 0<<COM1B1 | 0<<COM1B0)
+	OUT		TCCR1A, R16
+	LDI		R16, (0<<WGM13 | 1<<WGM12 | 0<<CS12 | 0<<CS11 | 1<<CS10)
+	OUT		TCCR1B, R16
+	CLR		R16
+	OUT		TCCR0, R16
+	OUT		OCR0, R16
+	OUT		TIMSK, R16
+	OUT		portC, R16
+	COM		R16
+	OUT		portB, R16
+	LDI		R23, 1
+RET
+
+; Subrutina de Carga de Visualizador de Audio
+CargarVisualizador:
+	; Inicialización de Elementos
+	LDI		R16, 8
+	CLR		R19
+	CLR		R20
+	; Cálculo de Medida de Segmentación de Notas en Visualizador
+	CalcularSegmentacion:
+	CPI		R19, NumNotas
+	BRGE	FinDeSegmentacion
+	ADD		R19, R16
+	INC		R20
+	JMP		CalcularSegmentacion
+	FinDeSegmentacion:
+RET
+; Subrutina de Carga de Patrón de Secciones
+CargarPatronDeSecciones:
+	; Inicialización de Elementos [Punteros a Datos de Sección]
+	RCALL	InicializarPunterosDeSeccion
+	; SEC 1A || 0 -> (4)
+    LDI     R16, 0
+    ST      X+, R16
+    LDI     R16, 4
+    ST      Y+, R16
+	; SEC 1B || 4 -> (12)
+    LDI     R16, 4
+    ST      X+, R16
+    LDI     R16, 8
+    ST      Y+, R16
+	; SEC 2 || 12 -> (28)
+    LDI     R16, 12
+    ST      X+, R16
+    LDI     R16, 16
+    ST      Y+, R16
+	; SEC 3 || 28 -> (40)
+    LDI     R16, 28
+    ST      X+, R16
+    LDI     R16, 12
+    ST      Y+, R16
+	; SEC 4A || 40 -> (46)
+    LDI     R16, 40
+    ST      X+, R16
+    LDI     R16, 6
+    ST      Y+, R16
+	; SEC 4B || 46 -> (50)
+    LDI     R16, 46
+    ST      X+, R16
+    LDI     R16, 4
+    ST      Y+, R16
+	; SEC 5  == Diff(5) + 1B || 50 -> (54) || 4 -> (12)
+	; Diff(5)
+    LDI     R16, 50
+    ST      X+, R16
+    LDI     R16, 4
+    ST      Y+, R16
+	; 1B
+    LDI     R16, 4
+    ST      X+, R16
+    LDI     R16, 8
+    ST      Y+, R16
+	; SEC 6 == SEC 2 || 12 -> (28)
+    LDI     R16, 12
+    ST      X+, R16
+    LDI     R16, 16
+    ST      Y+, R16
+	; SEC 7 == SEC 3 || 28 -> (40)
+    LDI     R16, 28
+    ST      X+, R16
+    LDI     R16, 12
+    ST      Y+, R16
+	; SEC 8 = SEC 4A + Diff(8) || 40 -> (46) || 54 -> (62)
+	; 4A
+    LDI     R16, 40
+    ST      X+, R16
+    LDI     R16, 6
+    ST      Y+, R16
+	; Diff(8)
+    LDI     R16, 54
+    ST      X+, R16
+    LDI     R16, 8
+    ST      Y+, R16
+	; SEC 9 || 62 -> (16)
+    LDI     R16, 62
+    ST      X+, R16
+    LDI     R16, 16
+    ST      Y+, R16
+	; SEC 10 || 78 -> (94)
+    LDI     R16, 78
+    ST      X+, R16
+    LDI     R16, 16
+    ST      Y+, R16
+	; SEC 11 || 94 -> (110)
+    LDI     R16, 94
+    ST      X+, R16
+    LDI     R16, 16
+    ST      Y+, R16
+	; SEC 12 || 110 -> (142)
+    LDI     R16, 110
+    ST      X+, R16
+    LDI     R16, 32
+    ST      Y+, R16
+	; SEC 13A || 142 -> (150)
+    LDI     R16, 142
+    ST      X+, R16
+    LDI     R16, 8
+    ST      Y+, R16
+	; SEC 13B || 150 -> (152)
+    LDI     R16, 150
+    ST      X+, R16
+    LDI     R16, 2
+    ST      Y+, R16
+	; SEC 13C || 152 -> (154)
+    LDI     R16, 152
+    ST      X+, R16
+    LDI     R16, 2
+    ST      Y+, R16
+	; SEC 14 == 13A + Diff(14) || 142 -> (150) || 154 -> (156)
+	; 13A
+    LDI     R16, 142
+    ST      X+, R16
+    LDI     R16, 8
+    ST      Y+, R16
+	; Diff(14)
+    LDI     R16, 154
+    ST      X+, R16
+    LDI     R16, 2
+    ST      Y+, R16
+	; SEC 15 == 13A + 13B + 13C == '8' + '2' + '2' == '12' || 142 -> (154)
+    LDI     R16, 142
+    ST      X+, R16
+    LDI     R16, 12
+    ST      Y+, R16
+	; SEC 16 || 156 -> (168)
+    LDI     R16, 156
+    ST      X+, R16
+    LDI     R16, 12
+    ST      Y+, R16
+	; SEC 17 == 13A + 13B + 13C == '8' + '2' + '2' == '12' || 142 -> (154)
+    LDI     R16, 142
+    ST      X+, R16
+    LDI     R16, 12
+    ST      Y+, R16
+	; SEC 18 == 14 == 13A + Diff(14) || 142 -> (150) || 154 -> (156)
+	; 13A
+    LDI     R16, 142
+    ST      X+, R16
+    LDI     R16, 8
+    ST      Y+, R16
+	; Diff(14)
+    LDI     R16, 154
+    ST      X+, R16
+    LDI     R16, 2
+    ST      Y+, R16
+	; SEC 19 == 13A + 13B + Diff(19) == '8' + '2' + 'D19' == '10' + 'D19' || 142 -> (152) || 168 -> (169)
+	; 13A + 13B
+    LDI     R16, 142
+    ST      X+, R16
+    LDI     R16, 10
+    ST      Y+, R16
+	; Diff(19)
+    LDI     R16, 168
+    ST      X+, R16
+    LDI     R16, 1
+    ST      Y+, R16
+	; SEC 20 || 169 -> (181)
+    LDI     R16, 169
+    ST      X+, R16
+    LDI     R16, 12
+    ST      Y+, R16
+	; Marcador de Final
+	LDI     R16, 0
+	ST      X+, R16
+	LDI     R16, 0
+	ST      Y+, R16
+RET

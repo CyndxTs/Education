@@ -1,0 +1,174 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MaestroBibliotecario.master.cs" Inherits="SoftBibliotecaWA.MaestroBibliotecario" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Fonts/css/all.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-3.7.1.js"></script>
+    <script src="Scripts/bootstrap.bundle.js"></script>
+    <script src="Scripts/toggleMenu.js"></script>
+    <title>Biblioteca Administrador</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/logoPrestaSoftColorido.png" height="30" alt="PUCP Logo">
+                    PRESTASOFT
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                 <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="RegistrarPrestamoBibliotecario.aspx">Registrar préstamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="RegistrarDevolucion.aspx">Registrar devolución</a>
+                    </li>
+     </ul>
+ </div>
+            </div>
+        </nav>
+        <!-- Botón de menú para mostrar/ocultar la barra lateral -->
+        <label for="sidebarToggle" class="toggleButton">
+            <i class="fas fa-bars me-2" style="color: #ffffff;"></i>
+        </label>
+        <!-- Texto de la biblioteca con margen a la izquierda -->
+        <a class="navbar-brand ms-4" href="#">PrestaSoft</a>
+
+
+
+        <!-- Checkbox oculto para controlar la visibilidad de la barra lateral -->
+        <input type="checkbox" id="sidebarToggle" class="d-none" />
+
+
+        <aside class="sidebar" id="sidebar">
+            <div class="username text-center" style="color: #F5F5DC;">
+             <div class="username text-center" style="color: #F5F5DC;">
+                <h5>Menú de Bibliotecario</h5>
+            </div>
+                <asp:Label ID="NombreUsuarioBibliotecario" runat="server" CssClass="fw-bold"></asp:Label>
+            </div>
+            <div class="menu-items mt-4">
+                <a href="CatalogoBibliotecario.aspx" class="btn  btn-block text-start" style="color: #F5F5DC;" ><i class="fa-solid fa-book"style="color: #F5F5DC"></i> Catálogo</a>
+                <a href="BibliotecarioPrestamos.aspx" class="btn  btn-block text-start" style="color: #F5F5DC;" ><i class="fa-solid fa-feather" style="color: #F5F5DC"></i> Préstamos</a>
+                <a href="ReportesBibliotecario.aspx" class="btn  btn-block text-start" style="color: #F5F5DC;"><i class="fa-solid fa-file-lines"style="color: #F5F5DC"></i> Reportes</a>
+                <a href="ConfigCuentaBibliotecario.aspx" class="btn btn-block text-start" style="color: #F5F5DC;"><i class="fa-solid fa-user" style="color: #F5F5DC"></i> Mi cuenta</a>
+                <a href="InicioSesion.aspx" class="btn btn-block text-start" style="color: #F5F5DC;"><i class="fa-solid fa-power-off" style="color: #F5F5DC"></i> Cerrar sesión</a>
+            </div>
+        </aside>
+
+
+        <!-- Contenido principal -->
+        <div class="main-content" id="mainContent">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <asp:ScriptManager ID="ScriptManager1" runat="server" />
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Estilos CSS personalizados -->
+        <style>
+            .mt-auto {
+                margin-top: auto;
+            }
+
+            .text-black {
+                color: #000000;
+            }
+            /* Estilos de la barra superior */
+            .navbar {
+                height: 50px;
+            }
+
+            /* Estilos de la barra lateral */
+            .sidebar {
+                position: fixed;
+                top: 50px; /* Debajo de la barra negra */
+                left: 0;
+                width: 250px;
+                height: calc(100% - 50px);
+                overflow-y: auto;
+                transition: transform 0.3s ease-in-out;
+                z-index: 1050;
+                padding: 15px;
+                background-color: #0e0b0b;
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* Ocultar la barra lateral cuando el checkbox está marcado */
+            #sidebarToggle:checked ~ .sidebar {
+                transform: translateX(-100%);
+            }
+
+            /* Ajustar el margen del contenido principal cuando la barra lateral está oculta */
+            #sidebarToggle:checked ~ .main-content {
+                margin-left: 0;
+            }
+
+            /* Contenido principal */
+            .main-content {
+                margin-top: 20px;
+                margin-left: 250px;
+                padding: 0px;
+                transition: margin-left 0.3s ease-in-out;
+            }
+
+            /* Estilo del botón de menú */
+            .toggleButton {
+                position: fixed;
+                top: 52px;
+                left: 15px;
+                cursor: pointer;
+                font-size: 1.5em;
+                z-index: 1100;
+            }
+
+            /* Ajustes para los botones dentro de la barra lateral */
+            .menu-items a {
+                display: block;
+                padding: 10px 15px;
+                color: #F5F5DC;
+                text-decoration: none;
+            }
+
+                .menu-items a:hover {
+                    background-color: #e0a800;
+                }
+        </style>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <style>
+            .navbar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 1100;
+            }
+
+            .nav-link {
+                color: #f8f9fa !important;
+                transition: color 0.3s;
+            }
+
+                .nav-link:hover {
+                    color: #e9ecef !important;
+                }
+
+            .navbar-brand {
+                margin-left: -30px;
+            }
+        </style>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="reporteSolicitudes" language="java" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2f6e4db4-9f8f-4ffe-9759-6e1fd142f492">
+	<property name="template.type" value="columnar"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="ta_provisional"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<style name="Title" forecolor="#000000" fontName="Times New Roman" fontSize="50.0" bold="false"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Times New Roman" fontSize="18.0" bold="false"/>
+	<style name="Column header" forecolor="#666666" fontName="Times New Roman" fontSize="14.0" bold="true"/>
+	<style name="Detail" mode="Transparent" fontName="Times New Roman"/>
+	<style name="Row" mode="Transparent" fontName="Times New Roman" pdfFontName="Times-Roman">
+		<conditionalStyle mode="Opaque" backcolor="#F0EFEF">
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+		</conditionalStyle>
+	</style>
+	<parameter name="idUsuario" class="java.lang.Integer"/>
+	<parameter name="fechaMin" class="java.sql.Date"/>
+	<parameter name="fechaMax" class="java.sql.Date"/>
+	<parameter name="estadoDePrestamos" class="java.lang.String"/>
+	<parameter name="idUniversidad" class="java.lang.Integer"/>
+	<parameter name="mostrarONoReservas" class="java.lang.Boolean"/>
+	<parameter name="descripcion" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String"/>
+	<query language="sql"><![CDATA[CALL ResumenReporteSolicitudes(
+    $P{idUsuario}, 
+    $P{fechaMin}, 
+    $P{fechaMax}, 
+    $P{estadoDePrestamos}, 
+    $P{idUniversidad}, 
+    $P{mostrarONoReservas}
+);]]></query>
+	<field name="CobroTotalAcumulado" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="cobroTotalAcumulado"/>
+		<property name="com.jaspersoft.studio.field.label" value="CobroTotalAcumulado"/>
+	</field>
+	<field name="CobroPorMoras" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="cobroPorMoras"/>
+		<property name="com.jaspersoft.studio.field.label" value="CobroPorMoras"/>
+	</field>
+	<field name="CobroPorAdicionales" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="cobroPorAdicionales"/>
+		<property name="com.jaspersoft.studio.field.label" value="CobroPorAdicionales"/>
+	</field>
+	<field name="NumeroDePrestamos" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="numeroDePrestamos"/>
+		<property name="com.jaspersoft.studio.field.label" value="NumeroDePrestamos"/>
+	</field>
+	<field name="PorcentajePrestamosConAtraso" class="java.lang.Float">
+		<property name="com.jaspersoft.studio.field.name" value="porcentajePrestamosConAtraso"/>
+		<property name="com.jaspersoft.studio.field.label" value="PorcentajePrestamosConAtraso"/>
+	</field>
+	<background splitType="Stretch"/>
+	<title height="146" splitType="Stretch">
+		<element kind="staticText" uuid="f49d68fd-a2c7-44ec-a5fc-9300d10c85a1" x="120" y="10" width="435" height="93" fontSize="43.0" bold="false" style="Title">
+			<text><![CDATA[Reporte de solicitudes]]></text>
+		</element>
+		<element kind="staticText" uuid="eef58983-008d-4a5b-8e47-97f8d4670c7a" x="120" y="103" width="80" height="29" fontSize="15.0" bold="false" style="SubTitle">
+			<text><![CDATA[Descripción: ]]></text>
+		</element>
+		<element kind="textField" uuid="0e5017be-5ae3-49af-9506-9be4eb0ba24a" x="200" y="102" width="352" height="30">
+			<expression><![CDATA[$P{descripcion}]]></expression>
+		</element>
+	</title>
+	<pageHeader splitType="Stretch"/>
+	<columnHeader splitType="Stretch"/>
+	<detail>
+		<band height="293" splitType="Stretch">
+			<element kind="textField" uuid="15cd75b6-92c5-4f29-98fe-0cf6282fdc83" x="180" y="20" width="100" height="30">
+				<expression><![CDATA[$F{CobroTotalAcumulado}]]></expression>
+			</element>
+			<element kind="staticText" uuid="d9e62b6a-809c-4afe-acb9-3ac7a5b2d7b8" x="80" y="20" width="100" height="30">
+				<text><![CDATA[CobroTotalAcumulado]]></text>
+			</element>
+			<element kind="textField" uuid="9ccfdb92-c19f-4a05-ad13-d1455a7766af" x="180" y="50" width="100" height="30">
+				<expression><![CDATA[$F{CobroPorMoras}]]></expression>
+			</element>
+			<element kind="staticText" uuid="c99cbb04-0d3b-417d-894e-377c81ee09dd" x="80" y="50" width="100" height="30">
+				<text><![CDATA[CobroPorMoras]]></text>
+			</element>
+			<element kind="textField" uuid="833cdd01-8230-4587-9505-907c7591c5ed" x="180" y="80" width="100" height="30">
+				<expression><![CDATA[$F{CobroPorAdicionales}]]></expression>
+			</element>
+			<element kind="staticText" uuid="4b3ff90c-b19a-47da-9121-9d62c99765e4" x="80" y="80" width="100" height="30">
+				<text><![CDATA[CobroPorAdicionales]]></text>
+			</element>
+			<element kind="textField" uuid="3adc3c5e-6c01-4648-a6c6-8f8d1a1caed8" x="380" y="20" width="100" height="30">
+				<expression><![CDATA[$F{NumeroDePrestamos}]]></expression>
+			</element>
+			<element kind="staticText" uuid="dc7d1b0f-48ae-4675-a873-d278cc2efdad" x="280" y="20" width="100" height="30">
+				<text><![CDATA[NumeroDePrestamos]]></text>
+			</element>
+			<element kind="textField" uuid="1b819d2e-be66-43c7-85d2-423ffb435c17" x="380" y="50" width="100" height="30">
+				<expression><![CDATA[$F{PorcentajePrestamosConAtraso}]]></expression>
+			</element>
+			<element kind="staticText" uuid="f7493fd9-a86e-4f16-9b35-fbac4382988d" x="280" y="50" width="100" height="30">
+				<text><![CDATA[PorcentajePrestamosConAtraso]]></text>
+			</element>
+			<element kind="staticText" uuid="43298eaf-ae4b-4f3f-b11b-613446c4c317" x="2" y="110" width="551" height="29" fontSize="15.0" bold="false" style="SubTitle">
+				<text><![CDATA[Préstamos:]]></text>
+			</element>
+			<element kind="staticText" uuid="3543b0b1-62ad-4c99-8c48-64ce41c91820" x="80" y="0" width="100" height="20" fontSize="13.0" bold="false" style="SubTitle">
+				<text><![CDATA[Resumen:]]></text>
+			</element>
+			<element kind="subreport" uuid="843e2c01-c3a9-4e96-9114-47a18c15ec2b" x="5" y="160" width="549" height="120">
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<expression><![CDATA[$P{SUBREPORT_DIR} + "reporteSolicitudesDetallePrestamos.jasper"]]></expression>
+				<parameter name="idUsuario">
+					<expression><![CDATA[$P{idUsuario}]]></expression>
+				</parameter>
+				<parameter name="fechaMin">
+					<expression><![CDATA[$P{fechaMin}]]></expression>
+				</parameter>
+				<parameter name="fechaMax">
+					<expression><![CDATA[$P{fechaMax}]]></expression>
+				</parameter>
+				<parameter name="estadoDePrestamos">
+					<expression><![CDATA[$P{estadoDePrestamos}]]></expression>
+				</parameter>
+				<parameter name="idUniversidad">
+					<expression><![CDATA[$P{idUniversidad}]]></expression>
+				</parameter>
+				<parameter name="mostrarONoReservas">
+					<expression><![CDATA[$P{mostrarONoReservas}]]></expression>
+				</parameter>
+			</element>
+		</band>
+		<band height="341">
+			<element kind="staticText" uuid="c0b2d3f9-b2ab-471e-8450-9250044fcba6" x="1" y="40" width="551" height="29" fontSize="15.0" bold="false" style="SubTitle">
+				<text><![CDATA[Reservas (solo si es que se eligió mostrar):]]></text>
+			</element>
+			<element kind="subreport" uuid="722f6664-0122-42a2-9e71-346c5d2d4c46" x="20" y="100" width="520" height="150">
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<expression><![CDATA[$P{SUBREPORT_DIR} + "reporteSolicitudesDetalleReservas.jasper"]]></expression>
+				<parameter name="idUsuario">
+					<expression><![CDATA[$P{idUsuario}]]></expression>
+				</parameter>
+				<parameter name="fechaMin">
+					<expression><![CDATA[$P{fechaMin}]]></expression>
+				</parameter>
+				<parameter name="fechaMax">
+					<expression><![CDATA[$P{fechaMax}]]></expression>
+				</parameter>
+				<parameter name="estadoDePrestamos">
+					<expression><![CDATA[$P{estadoDePrestamos}]]></expression>
+				</parameter>
+				<parameter name="idUniversidad">
+					<expression><![CDATA[$P{idUniversidad}]]></expression>
+				</parameter>
+				<parameter name="mostrarONoReservas">
+					<expression><![CDATA[$P{mostrarONoReservas}]]></expression>
+				</parameter>
+			</element>
+		</band>
+	</detail>
+	<pageFooter height="28" splitType="Stretch">
+		<element kind="frame" uuid="bfdca178-800d-445c-9a31-bb616a00e8ce" mode="Opaque" x="2" y="0" width="555" height="13" forecolor="#D0B48E" backcolor="#9DB1B8">
+			<element kind="textField" uuid="2fba0f87-635e-476d-858f-d102b26146fe" x="513" y="0" width="40" height="13" forecolor="#FFFFFF" fontSize="10.0" evaluationTime="Report" bold="false" vTextAlign="Middle" style="Column header">
+				<expression><![CDATA[" " + $V{PAGE_NUMBER}]]></expression>
+			</element>
+			<element kind="textField" uuid="e454d23d-bcfc-4c79-a399-0ef520a3150a" mode="Transparent" x="433" y="0" width="80" height="13" forecolor="#FFFFFF" fontSize="10.0" bold="false" hTextAlign="Right" vTextAlign="Middle" style="Column header">
+				<expression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></expression>
+			</element>
+			<element kind="textField" uuid="14d8de1e-8695-4078-a67f-0e69172574d5" x="2" y="0" width="197" height="13" forecolor="#FFFFFF" fontSize="10.0" pattern="EEEEE dd MMMMM yyyy" bold="false" vTextAlign="Middle" style="Column header">
+				<expression><![CDATA[new java.util.Date()]]></expression>
+			</element>
+		</element>
+	</pageFooter>
+	<summary height="86" splitType="Stretch">
+		<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+		<property name="com.jaspersoft.studio.unit.height" value="px"/>
+	</summary>
+</jasperReport>

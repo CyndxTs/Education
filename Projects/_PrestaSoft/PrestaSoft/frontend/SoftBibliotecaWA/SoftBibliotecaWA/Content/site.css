@@ -1,0 +1,230 @@
+﻿html, body {
+    height: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.gfg {
+    height: 50px;
+    width: 50px;
+}
+
+.mynav {
+    color: #ffc107;
+}
+
+    .mynav li a {
+        color: #ffc107;
+        text-decoration: none;
+        width: 100%;
+        display: block;
+        border-radius: 5px;
+        padding: 8px 5px;
+    }
+
+        .mynav li a.active {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .mynav li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .mynav li a i {
+            width: 25px;
+            text-align: center;
+        }
+
+.notification-badge {
+    background-color: rgba(255, 255, 255, 0.7);
+    float: right;
+    color: #222;
+    font-size: 14px;
+    padding: 0px 8px;
+    border-radius: 2px;
+}
+
+.table table tbody tr td a,
+.table table tbody tr td span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.table table > tbody > tr > td > span {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.table table > tbody > tr > td:first-child > a,
+.table table > tbody > tr > td:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.table table > tbody > tr > td:last-child > a,
+.table table > tbody > tr > td:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.table table > tbody > tr > td > a:hover,
+.table table > tbody > tr > td > span:hover,
+.table table > tbody > tr > td > a:focus,
+.table table > tbody > tr > td > span:focus {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+.barraBusqueda {
+    position: fixed; 
+    top: 55px;
+    left: 0px; 
+    width: calc(100%);
+    height: 60px;
+    z-index: 999;
+    background-color: #FFC107;
+    padding: 10px;
+    margin: 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-container {
+    display: flex;
+    align-items: center; 
+}
+
+.form-select {
+    width: auto; 
+    flex: 1; 
+    margin-right: 5px; 
+}
+
+.btn-busqueda-avanzada {
+    flex-shrink: 0; 
+}
+.barraDerecha {
+    position: fixed;
+    top: 50px; 
+    left: 0;
+    width: 200px;
+    height: calc(100% - 50px);
+    background-color: #FFC107;
+    padding: 10px;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+#toggleMenu:checked ~ .barraDerecha {
+    transform: translateX(-100%);
+}
+
+#toggleMenu:checked ~ #contenido {
+    margin-left: 0;
+}
+
+.toggleButton {
+    position: fixed;
+    top: 291px;
+    left: 202px;
+    z-index: 1100;
+    cursor: pointer;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-label {
+    font-weight: bold;
+}
+.background-image {
+    background-image: url('../Images/InteriorBiblioteca.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barraDerecha {
+    position: fixed;
+    top: 56px;
+    right: 0;
+    width: 250px;
+    height: calc(100% - 56px);
+    background-color: #ffc107;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none;
+}
+
+.barraDerecha.visible {
+    display: block;
+}
+
+.toggleButton {
+    margin-top: -45px;
+    background-color: #212529;
+}
+
+.contenidoNormal {
+    padding-top: 120px;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: margin 0.3s;
+}
+
+.contenidoAdaptado {
+  
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0;
+    padding-left: 40px;
+}
+
+.navbar-brand img {
+    max-height: 30px;
+}
+
+.modal-custom-margin {
+    margin-top: 50px; 
+}
+
+
+
+
+

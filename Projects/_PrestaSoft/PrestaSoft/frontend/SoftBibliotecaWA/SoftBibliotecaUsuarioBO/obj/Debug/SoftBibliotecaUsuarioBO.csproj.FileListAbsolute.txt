@@ -1,0 +1,121 @@
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\User\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\User\Desktop\CODIGOS\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\aayal\Desktop\Laboratorio_10_Programacion 3\biblioteca-main\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\User\Desktop\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\sebas\OneDrive\Documentos\1PROG3\1TA_prog3\PROYECTO\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\User\Desktop\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\ANDRE ASENJO\Desktop\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\aayal\Desktop\Lab11_ProyectoFinal\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+C:\Users\aayal\Desktop\PruebaFinal\Lab11_SeguidoresVK\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll.config
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.dll
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaUsuarioBO.pdb
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.pdb
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\bin\Debug\SoftBibliotecaBO.dll.config
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.AssemblyReference.cache
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.csproj.CoreCompileInputs.cache
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibl.4E616CCD.Up2Date
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.dll
+D:\PUCP\Lab11_SeguidoresVK\SoftBiblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaUsuarioBO\obj\Debug\SoftBibliotecaUsuarioBO.pdb

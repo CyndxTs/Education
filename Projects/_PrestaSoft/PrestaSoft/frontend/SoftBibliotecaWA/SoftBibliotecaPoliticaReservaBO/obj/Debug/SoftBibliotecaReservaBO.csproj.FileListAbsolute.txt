@@ -1,0 +1,11 @@
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\obj\Debug\SoftBibliotecaReservaBO.csproj.AssemblyReference.cache
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\obj\Debug\SoftBibliotecaReservaBO.csproj.CoreCompileInputs.cache
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\obj\Debug\SoftBibliotecaPoliticaReservaBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\obj\Debug\SoftBibliotecaPoliticaReservaBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\bin\Debug\SoftBibliotecaPoliticaReservaBO.dll.config
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\bin\Debug\SoftBibliotecaPoliticaReservaBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\bin\Debug\SoftBibliotecaPoliticaReservaBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\bin\Debug\SoftBibliotecaBO.dll
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\bin\Debug\SoftBibliotecaBO.pdb
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\bin\Debug\SoftBibliotecaBO.dll.config
+C:\Users\Rodri\Documents\ProgramingProjects\Progra3\TA\biblioteca\frontend\SoftBibliotecaWA\SoftBibliotecaPoliticaReservaBO\obj\Debug\SoftBibl.5BA3761A.Up2Date

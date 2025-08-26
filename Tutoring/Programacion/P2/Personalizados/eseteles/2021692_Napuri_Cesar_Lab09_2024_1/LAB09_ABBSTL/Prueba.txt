@@ -1,0 +1,88 @@
+Estante:         5
+Capacidad:        15        Disponible:       8.8
+------------------------------------------------------------
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSn:   10292004        Anio:       2019
+
+Titulo: Relato de un naufrago
+Peso: 1.4
+Autor: Gabriel Garcia Marquez
+
+Titulo: El proceso
+Peso: 0.4
+Autor: Franz Kafka
+
+Titulo: El club Dumas
+Peso: 0.7
+Autor: Arturo Perez-Reverte
+
+Titulo: Progreso del peregrino
+Peso: 0.4
+Autor: John Bunyan
+
+Titulo: El italiano
+Peso: 0.4
+Autor: Arturo Perez-Reverte
+
+Titulo: El invierno del mundo
+Peso: 0.4
+Autor: Ken Follett
+
+Titulo: El reino de este mundo
+Peso: 0.4
+Autor: Alejo Carpentier
+
+Titulo: Vidas intrepidas
+Peso: 0.4
+Autor: Julio Albi de la Cuesta
+
+Titulo: Un asunto de honor
+Peso: 0.4
+Autor: Arturo Perez-Reverte
+
+============================================================
+Estante:         3
+Capacidad:        15        Disponible:      8.15
+------------------------------------------------------------
+Titulo: Historica
+Peso: 0.5
+ISSn:    2223375        Anio:       2022
+
+Titulo: Historica
+Peso: 0.5
+ISSn:    2223375        Anio:       2022
+
+Titulo: Historica
+Peso: 0.5
+ISSn:    2223375        Anio:       2022
+
+Titulo: Historica
+Peso: 0.5
+ISSn:    2223375        Anio:       2019
+
+Titulo: LA ENCICLOPEDIA DE LOS DINOSAURIOS
+Peso: 2
+SKU:      36225        Anio:       2018
+
+Titulo: La chica del tren
+Peso: 0.7
+Autor: Paula Hawkins
+
+Titulo: Espania con honra
+Peso: 0.7
+Autor: Daniel Aquillue
+
+Titulo: Los pilares de la tierra
+Peso: 0.3
+Autor: Ken Follett
+
+Titulo: Apocalipticos e integrados
+Peso: 0.4
+Autor: Umberto Eco
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 0.75
+ISSn:   10292004        Anio:       2023
+
+============================================================
