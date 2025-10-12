@@ -1,6 +1,6 @@
 [Variables]
 ;	Scale Value: [0.10 <-> 6.00]
-Scale=1.95
+Scale=1.8
 
 ;	ClockFormat: [H = 24h | I = 12h]
 ClockFormat=H
