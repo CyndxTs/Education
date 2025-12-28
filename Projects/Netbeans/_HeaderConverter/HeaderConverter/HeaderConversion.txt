@@ -1,6 +1,0 @@
-
-char *obtenerDinamicoExacto(const char *);
-
-char *leerCadenaExacta(ifstream &,char);
-
-char *leerCadenaExacta(ifstream &,int,char);
