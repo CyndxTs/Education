@@ -1,3 +1,0 @@
->> La de pasalibros está bien
->> La pregunta 2 de STL, está mal pues no compila por esa wbda que te dije de sobrecagar el "<" y el "==" . Corrigelo a ver
->> La pregunta de Java no la realicé, pero te la dejo por si gustas

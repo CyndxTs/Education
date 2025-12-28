@@ -1,8 +1,0 @@
-cmake_minimum_required(VERSION 4.0)
-project(PagameCharly)
-
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(PagameCharly main.cpp
-        funciones.cpp
-        funciones.h)
